@@ -2,18 +2,13 @@
 
 #define N 5
 
-// ---------------------
-//     ESTRUTURA
-// ---------------------
+
 typedef struct {
     char nome[20];
     int veiculos;
     int acidentes;
 } Estado;
 
-// -------------------------------
-// (a) PROCEDIMENTO PARA CARREGAR
-// -------------------------------
 void carregarDados(Estado v[]) {
     int i;
     for (i = 0; i < N; i++) {
@@ -27,10 +22,7 @@ void carregarDados(Estado v[]) {
     }
 }
 
-// ------------------------------------------------------
-// (b) PROCEDIMENTO QUE DEVOLVE MAIOR E MENOR ACIDENTES
-//     (por passagem por referencia, como o professor pediu)
-// ------------------------------------------------------
+
 void maiorMenor(Estado v[], int *posMaior, int *posMenor) {
     int i;
     *posMaior = 0;
@@ -45,17 +37,11 @@ void maiorMenor(Estado v[], int *posMaior, int *posMenor) {
     }
 }
 
-// --------------------------------------------------------
-// (c) FUNÇÃO QUE RECEBE UM ESTADO E RETORNA O PERCENTUAL
-//            percentual = acidentes / veiculos * 100
-// --------------------------------------------------------
+
 float percentual(Estado e) {
     return ( (float)e.acidentes / e.veiculos ) * 100;
 }
 
-// -----------------------------------------------
-// (d) FUNÇÃO QUE RETORNA A MÉDIA DE ACIDENTES
-// -----------------------------------------------
 float mediaAcidentes(Estado v[]) {
     int i, soma = 0;
 
@@ -65,9 +51,6 @@ float mediaAcidentes(Estado v[]) {
     return (float)soma / N;
 }
 
-// ---------------------------------------------------------
-// (e) PROCEDIMENTO QUE MOSTRA ESTADOS ACIMA DA MÉDIA
-// ---------------------------------------------------------
 void acimaMedia(Estado v[], float media) {
     int i;
     printf("\nEstados acima da media:\n");
@@ -79,9 +62,7 @@ void acimaMedia(Estado v[], float media) {
     }
 }
 
-// ---------------------
-//        MAIN
-// ---------------------
+
 int main() {
 
     Estado estados[N] = {
