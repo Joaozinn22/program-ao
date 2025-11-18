@@ -1,0 +1,55 @@
+1-Cadastrar conta
+2-Consultar saldo
+3-Depósito
+4-Saque
+5-Exibir contas
+0-Sair
+1
+
+1-Conta Corrente
+2-Conta Poupança
+1
+Número da conta: 123
+Nome do titular: João
+CPF: 11122233344
+Telefone: 999999999
+Conta cadastrada com sucesso.
+
+1-Cadastrar conta
+2-Consultar saldo
+3-Depósito
+4-Saque
+5-Exibir contas
+0-Sair
+3
+
+1-Conta Corrente
+2-Conta Poupança
+1
+Número da conta: 123
+Valor do depósito: 150
+Depósito realizado com sucesso.
+
+1-Cadastrar conta
+2-Consultar saldo
+3-Depósito
+4-Saque
+5-Exibir contas
+0-Sair
+5
+
+Contas cadastradas:
+Conta Corrente
+Número: 123
+Titular: João
+CPF: 11122233344
+Telefone: 999999999
+Saldo: 150.00
+
+1-Cadastrar conta
+2-Consultar saldo
+3-Depósito
+4-Saque
+5-Exibir contas
+0-Sair
+0

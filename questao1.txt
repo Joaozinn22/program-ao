@@ -1,0 +1,15 @@
+Estado com maior numero de acidentes: SP (180000)
+Estado com menor numero de acidentes: ES (25000)
+
+Percentuais:
+MG: 1.40%
+RJ: 1.99%
+SP: 1.23%
+ES: 1.56%
+BA: 1.50%
+
+Media de acidentes no pais: 84600.00
+
+Estados acima da media:
+RJ - 95000 acidentes
+SP - 180000 acidentes
